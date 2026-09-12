@@ -1,5 +1,5 @@
 <h1 align="center">AdaptX Engine</h1>
-<h3 align="center">AI-Powered Multi-Surface Contextual Layout for Static & Video Advertising Platform</h3>
+<h3 align="center">Adaptive Layout Engine for Multi-Surface Ads</h3>
 
 <p align="center">
   <span style="color: #ffffff;"><b>Live Application:</b></span>
