@@ -155,7 +155,6 @@ flowchart TD
 
 ---
 
-
 ## Frontend Architecture Overview
 
 - **Campaign Composer** (`Step1CampaignSetup.tsx`): Interactive setup wizard for products, geometry, templates, and motion controls.
@@ -174,6 +173,9 @@ Run the Vitest test suite to verify layout engine calculations and constraint so
 cd frontend
 npm test
 ```
+
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/4d838a88-67cf-4602-adef-0d3936f41c25" />
+
 
 Tested Engine Modules:
 - `FocalPointCropper.test.ts`: Smart cropping focal point detection and aspect ratio fitting.
