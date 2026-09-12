@@ -119,14 +119,14 @@ flowchart TD
 # > Smartwatch
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/09202f42-e214-44f6-8b70-406c5f5adab3" />
 
-# 8. Adaptive Multi-Surface Ads
+# 8. Layout Genome & Parameter Inspector
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/dd3b6d57-ad10-4103-9177-030fc4a9801d" />
+
+# 9. Adaptive Multi-Surface Ads
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/97814aa7-ff36-4eb2-93ef-963a744e4d57" />
 
-# 9. A/B Creative Variation Comparison
+# 10. A/B Creative Variation Comparison
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/55642ced-3704-4ed8-a530-a3a5045bf31a" />
-
-# 10. Layout Genome & Parameter Inspector
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/dd3b6d57-ad10-4103-9177-030fc4a9801d" />
 
 # 11. Multi-Vibe Theme & Aesthetic Selection
 <img width="1452" height="228" alt="image" src="https://github.com/user-attachments/assets/446bc233-935e-4a52-baa5-be8d7816e2a6" />
