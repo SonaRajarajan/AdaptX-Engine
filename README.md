@@ -2,11 +2,22 @@
 <h3 align="center">AI-Powered Multi-Surface Contextual Layout for Static & Video Advertising Platform</h3>
 
 <p align="center">
-  <span style="color: #ffffff;"><b>Live Application:</b></span> <a href="https://adapt-x-engine.vercel.app/">https://adapt-x-engine.vercel.app/</a>
+  <span style="color: #ffffff;"><b>Live Application:</b></span>
+  <a href="https://adapt-x-engine.vercel.app/">https://adapt-x-engine.vercel.app/</a>
   <br>
-  <span style="color: #ffffff;"><b>GitHub Repository:</b></span> <a href="https://github.com/SonaRajarajan/AdaptX-Engine">https://github.com/SonaRajarajan/AdaptX-Engine</a>
+  <span style="color: #ffffff;"><b>GitHub Repository:</b></span>
+  <a href="https://github.com/SonaRajarajan/AdaptX-Engine">https://github.com/SonaRajarajan/AdaptX-Engine</a>
 </p>
 
+<br>
+
+<div align="center">
+
+<b>V R Sona</b>
+<br>
+<b>Reg No: 22MIA1161</b>
+
+</div>
 ---
 
 ## Quick Start Execution
