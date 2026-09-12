@@ -33,7 +33,7 @@ cd AdaptX-Engine
 ./run_app.sh
 ```
 
-- **Live Vercel Web App:** https://adapt-x-engine.vercel.app/
+- **Deployed Live Vercel Web App:** https://adapt-x-engine.vercel.app/
 - **API Health Check:** http://localhost:8000/api/health
 
 ---
