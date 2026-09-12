@@ -81,7 +81,7 @@ flowchart TD
 - **Multi-Surface Adaptation**: Real-time reflowing across (9:16, 16:9, 1:1, 32:9, 4:5, 3:4, Smartwatch, Cockpit).
 - **Static Poster Ad Renderer**: Smart typography hierarchy, focal point cropper & custom shape cuts.
 - **Video Commercial Ads Engine**: 12 commercial presets with motion dynamics, particle physics & animated glitch effects.
-- **3D Spatial Environment Simulator**: Preview ads rendered inside real-world 3D devices (iPhone 16 Pro, MacBook, 4K TV, City Billboard).
+- **3D Spatial Environment Simulator**: Preview ads rendered as real-world 3D devices (iPhone 16 Pro, MacBook, 4K TV, City Billboard).
 - **Integrated Export Engine**: 1-click PNG image export for static posters and 1-click MP4 commercial video export.
 - **A/B Comparison & Layout Genome**: Side-by-side creative variation matrix and raw layout DNA parameter inspector.
 - **Automated Accessibility Audit**: Real-time WCAG color contrast auditing and font legibility constraint checks.
@@ -107,7 +107,7 @@ flowchart TD
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/bfee90f7-068f-4e0e-bfb2-bb43303f3926" />
 
 # 4. Motion Preset & Animation Selection 
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/89b0028f-8243-4320-a626-e36e52d7164e" />
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/5259db59-0a6e-4a37-9bb9-81c4815ce43a" />
 
 # 5. Campaign Setup & Product Configuration with Cursor Drag
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/b4beac31-0a94-4697-8cd4-902318dc1ea3" />
@@ -135,7 +135,8 @@ flowchart TD
 <img width="465" height="161" alt="image" src="https://github.com/user-attachments/assets/00c77f96-74c3-42d8-91cd-81377371b7af" />
 
 # 13. Save and Download Campaign & Surface Presets
-<img width="1414" height="352" alt="image" src="https://github.com/user-attachments/assets/f8adf2d3-49b6-4af4-a518-694fc3a75c68" />
+<img width="1415" height="397" alt="image" src="https://github.com/user-attachments/assets/4e08af7a-0d44-4c58-b8bb-033fb50635ae" />
+
 
 ---
 
