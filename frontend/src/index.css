@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Minimalist Red Studio Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #2a1015;
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #dc2626;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #090305;
+  color: #fafafa;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Poster Motion Graphics & Keyframe Animations */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+}
+
+@keyframes float3D {
+  0%, 100% {
+    transform: perspective(1000px) translateZ(45px) translateY(0px) rotateX(2deg);
+  }
+  50% {
+    transform: perspective(1000px) translateZ(65px) translateY(-12px) rotateX(-2deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes speedStream {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-120%) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(220%) skewX(-20deg);
+  }
+}
+
+@keyframes arrowShift {
+  0%, 100% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes orbitSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes product360SlowSpin {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+@keyframes bounceFloat {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  30% {
+    transform: translateY(-16px) scale(1.04);
+  }
+  50% {
+    transform: translateY(-4px) scale(0.98);
+  }
+  70% {
+    transform: translateY(-10px) scale(1.02);
+  }
+}
+
+@keyframes glitchFlicker {
+  0%, 100% {
+    transform: translate(0);
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  20% {
+    transform: translate(-3px, 2px);
+    filter: drop-shadow(3px -2px 0 #06b6d4) drop-shadow(-3px 2px 0 #ff0055);
+  }
+  22% {
+    transform: translate(0);
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  60% {
+    transform: translate(3px, -1px);
+    filter: drop-shadow(-3px 2px 0 #06b6d4) drop-shadow(3px -1px 0 #ff0055);
+  }
+  62% {
+    transform: translate(0);
+    filter: drop-shadow(0 0 0 transparent);
+  }
+}
+
+@keyframes zoomPulse {
+  0%, 100% {
+    transform: scale(1) perspective(800px) rotateX(0deg);
+  }
+  50% {
+    transform: scale(1.12) perspective(800px) rotateX(4deg);
+  }
+}
+
+.animate-poster-float {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+.animate-poster-float-3d {
+  animation: float3D 4.5s ease-in-out infinite;
+}
+
+.animate-poster-360-slow {
+  animation: product360SlowSpin 24s linear infinite;
+  transform-style: preserve-3d;
+}
+
+.animate-poster-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.animate-poster-shimmer {
+  animation: shimmerSweep 3.5s ease-in-out infinite;
+}
+
+.animate-poster-bounce {
+  animation: bounceFloat 2.8s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+}
+
+.animate-poster-glitch {
+  animation: glitchFlicker 3s ease-in-out infinite;
+}
+
+@keyframes shoeMotionFloat {
+  0%, 100% {
+    transform: perspective(900px) translateZ(60px) translateY(0px) rotateY(12deg) rotateX(-4deg) scale(1.10);
+    filter: drop-shadow(0 20px 24px rgba(0, 0, 0, 0.55));
+  }
+  50% {
+    transform: perspective(900px) translateZ(80px) translateY(-16px) rotateY(-8deg) rotateX(4deg) scale(1.16);
+    filter: drop-shadow(0 32px 38px rgba(0, 0, 0, 0.75));
+  }
+}
+
+.animate-product-shoe-rotate {
+  animation: none !important;
+  transform-style: preserve-3d;
+}

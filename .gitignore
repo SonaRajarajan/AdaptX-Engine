@@ -1,0 +1,22 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+.next/
+*.db
+
+# Environment & IDE
+.env
+.env.local
+.DS_Store
+.idea/
+.vscode/
+
+# Large media / old test zips if any
+*.mp4
+*.zip
