@@ -160,7 +160,7 @@ flowchart TD
 
 - **Campaign Composer** (`Step1CampaignSetup.tsx`): Interactive setup wizard for products, geometry, templates, and motion controls.
 - **3D Spatial Simulator** (`DeviceRealWorldModal.tsx`): Real-time 3D spatial device modal with 8 environment presets & 2D/3D popouts.
-- **Static Poster Renderer** (`AdaptiveAdRenderer.tsx`): Dynamic poster rendering with brand typography, cropper & geometric shape cuts.
+- **Static Poster Renderer** (`AdaptiveAdRenderer.tsx`): Dynamic poster rendering with brand typography & geometric shape cuts.
 - **Video Commercial Renderer** (`VideoAdRenderer.tsx`): High-framerate canvas animation engine with particle physics & MP4 export.
 - **Auto-Layout Intelligence** (`src/engine/`): Candidate scoring, constraint solver, smart typography scaling & evolutionary generator.
 - **Unified State Store** (`useAdaptXStore.ts`): Central Zustand state tracking active campaign, video presets & themes.
