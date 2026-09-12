@@ -1,4 +1,3 @@
-<h1 align="center">AdaptX Engine</h1>
 <h1 align="center">Adaptive Layout Engine for Multi-Surface Ads</h1>
 
 <p align="center">
