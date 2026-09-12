@@ -13,12 +13,12 @@
 
 <div align="center">
 
-<b>V R Sona</b>
+<b>Name : V R Sona</b>
 <br>
 <b>Reg No: 22MIA1161</b>
 
 </div>
----
+
 
 ## Quick Start Execution
 
@@ -78,10 +78,10 @@ flowchart TD
 
 ## Features
 
-- **Multi-Surface Adaptation**: Real-time reflowing across 8 device aspect ratios (9:16, 16:9, 1:1, 32:9, 4:5, 3:4, Smartwatch, Cockpit).
-- **Static Poster Ad Renderer**: Smart typography hierarchy, focal point cropper, and custom shape cuts (circle, arch, diamond, hexagon).
-- **Video Commercial Ads Engine**: 12 commercial presets with motion dynamics, particle physics, and animated glitch effects.
-- **3D Spatial Environment Simulator**: Preview creative ads rendered inside 8 real-world 3D devices (iPhone 16 Pro, MacBook, 4K TV, City Billboard).
+- **Multi-Surface Adaptation**: Real-time reflowing across (9:16, 16:9, 1:1, 32:9, 4:5, 3:4, Smartwatch, Cockpit).
+- **Static Poster Ad Renderer**: Smart typography hierarchy, focal point cropper & custom shape cuts.
+- **Video Commercial Ads Engine**: 12 commercial presets with motion dynamics, particle physics & animated glitch effects.
+- **3D Spatial Environment Simulator**: Preview ads rendered inside real-world 3D devices (iPhone 16 Pro, MacBook, 4K TV, City Billboard).
 - **Integrated Export Engine**: 1-click PNG image export for static posters and 1-click MP4 commercial video export.
 - **A/B Comparison & Layout Genome**: Side-by-side creative variation matrix and raw layout DNA parameter inspector.
 - **Automated Accessibility Audit**: Real-time WCAG color contrast auditing and font legibility constraint checks.
@@ -89,64 +89,52 @@ flowchart TD
 
 ---
 
-## Frontend Architecture Overview
-
-- **Campaign Composer** (`Step1CampaignSetup.tsx`): Interactive setup wizard for products, geometry, templates, and motion controls.
-- **3D Spatial Simulator** (`DeviceRealWorldModal.tsx`): Real-time 3D spatial device modal with 8 environment presets and 2D/3D popouts.
-- **Static Poster Renderer** (`AdaptiveAdRenderer.tsx`): Dynamic poster rendering with brand typography, cropper, and geometric shape cuts.
-- **Video Commercial Renderer** (`VideoAdRenderer.tsx`): High-framerate canvas animation engine with particle physics and MP4 export.
-- **Auto-Layout Intelligence** (`src/engine/`): Candidate scoring, constraint solver, smart typography scaling, and evolutionary generator.
-- **Unified State Store** (`useAdaptXStore.ts`): Central Zustand state tracking active campaign, selected surfaces, video presets, and themes.
-
----
-
 ## Application Screenshots
 
-# 1.
+# 1. Homepage of Multi-Surface Ads Platform
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/f124b103-5c28-45bb-8219-64314f8e1d31" />
 
-# 2.
-# > 
+# > Static Poster Ad Editor
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/20a3a486-ee87-4ec2-83e4-50b8d9b8ea4a" />
 
-# >
+# > Video Commercial Ad Builder
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/a14c50e5-99a8-46ba-baee-6b0872ba5d28" />
 
-# 3.
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/69a28678-c51f-40e8-96ff-e4eb9133309f" />
+# 2. Multi-Surface Geometry Format Selection
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/85cd6924-9976-473e-a376-58af49d8a012" />
 
-# 4.
+# 3. AI-Powered Adaptive Template Generation
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/bfee90f7-068f-4e0e-bfb2-bb43303f3926" />
 
-# 5.
+# 4. Motion Preset & Animation Selection 
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/89b0028f-8243-4320-a626-e36e52d7164e" />
 
-# 6.
+# 5. Campaign Setup & Product Configuration with Cursor Drag
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/b4beac31-0a94-4697-8cd4-902318dc1ea3" />
 
-# 7.
-# >
+# 7. 3D Real-World Ad Preview
+# > Phone
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/f28bbd27-2397-40ff-a102-2ecb0f7f3bbb" />
 
-# 8.
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/97814aa7-ff36-4eb2-93ef-963a744e4d57" />
-
-# 9.
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/55642ced-3704-4ed8-a530-a3a5045bf31a" />
-
-# >
+# > Smartwatch
 <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/09202f42-e214-44f6-8b70-406c5f5adab3" />
 
-#
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/96b1f6aa-ac9f-4e3b-803d-4d87afedcb6d" />
- 
-#
+# 8. Adaptive Multi-Surface Ads
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/97814aa7-ff36-4eb2-93ef-963a744e4d57" />
+
+# 9. A/B Creative Variation Comparison
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/55642ced-3704-4ed8-a530-a3a5045bf31a" />
+
+# 10. Layout Genome & Parameter Inspector
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/dd3b6d57-ad10-4103-9177-030fc4a9801d" />
+
+# 11. Multi-Vibe Theme & Aesthetic Selection
 <img width="1452" height="228" alt="image" src="https://github.com/user-attachments/assets/446bc233-935e-4a52-baa5-be8d7816e2a6" />
 
-#
+# 12. Dynamic Typography & Focal Point Adjustment
 <img width="465" height="161" alt="image" src="https://github.com/user-attachments/assets/00c77f96-74c3-42d8-91cd-81377371b7af" />
 
-#
+# 13. Save and Download Campaign & Surface Presets
 <img width="1414" height="352" alt="image" src="https://github.com/user-attachments/assets/f8adf2d3-49b6-4af4-a518-694fc3a75c68" />
 
 ---
@@ -168,6 +156,17 @@ flowchart TD
 
 ---
 
+
+## Frontend Architecture Overview
+
+- **Campaign Composer** (`Step1CampaignSetup.tsx`): Interactive setup wizard for products, geometry, templates, and motion controls.
+- **3D Spatial Simulator** (`DeviceRealWorldModal.tsx`): Real-time 3D spatial device modal with 8 environment presets and 2D/3D popouts.
+- **Static Poster Renderer** (`AdaptiveAdRenderer.tsx`): Dynamic poster rendering with brand typography, cropper, and geometric shape cuts.
+- **Video Commercial Renderer** (`VideoAdRenderer.tsx`): High-framerate canvas animation engine with particle physics and MP4 export.
+- **Auto-Layout Intelligence** (`src/engine/`): Candidate scoring, constraint solver, smart typography scaling, and evolutionary generator.
+- **Unified State Store** (`useAdaptXStore.ts`): Central Zustand state tracking active campaign, selected surfaces, video presets, and themes.
+
+---
 ## Automated Test Suite
 
 Run the Vitest test suite to verify layout engine calculations and constraint solvers:
