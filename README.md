@@ -77,7 +77,7 @@ flowchart TD
 
 - **Multi-Surface Adaptation**: Real-time reflowing across (9:16, 16:9, 1:1, 32:9, 4:5, 3:4, Smartwatch, Cockpit).
 - **Static Poster Ad Renderer**: Smart typography hierarchy, focal point cropper & custom shape cuts.
-- **Video Commercial Ads Engine**: 12 commercial presets with motion dynamics, particle physics & animated glitch effects.
+- **Video Commercial Ads Engine**: Commercial presets with motion dynamics, particle physics & animated glitch effects.
 - **3D Spatial Environment Simulator**: Preview ads rendered as real-world 3D devices (iPhone 16 Pro, MacBook, 4K TV, City Billboard).
 - **Integrated Export Engine**: 1-click PNG image export for static posters and 1-click MP4 commercial video export.
 - **A/B Comparison & Layout Genome**: Side-by-side creative variation matrix and raw layout DNA parameter inspector.
